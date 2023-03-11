@@ -87,3 +87,21 @@ h2 {
 .container {
   margin-top: 10px;
 }
+
+.time {
+  border: 1px solid #DDDDDD;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+header {
+background-color: #E1E9F2;
+}
+
+#currentDay {
+  font-weight: bold;
+  font-size: 20px;
+}

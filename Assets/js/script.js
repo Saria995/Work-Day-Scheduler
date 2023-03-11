@@ -1,6 +1,33 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+//setting variables-linking to HTML
+var currentDayE1 = $('#currentDay');
+var currentTimeE1 = $('#currentTime');
+
+//Function called to render page so that code only runs after page has loaded
+window.onload = function() {
+  nineAM();
+  tenAM();
+  elevenAM();
+  twelvePM();
+  onePM();
+  twoPM();
+  threePM();
+  fourPM();
+  fivePM();
+};
+
+// function to display date and time at the top of the page
+function displayTime() {
+var currentDay = dayjs().format('dddd MMMM DD, YYYY');
+currentDayE1.text(currentDay);
+console.log(currentDay);
+
+var currentTime = dayjs().format('hh:mm:ss a');
+currentTimeE1.text(currentTime);
+console.log(currentTime);
+}
+setInterval(displayTime, 1000);
+
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
