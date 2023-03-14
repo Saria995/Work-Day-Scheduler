@@ -1,5 +1,161 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+  width: 95%;
+}
+
+.row {
+  border-top: 1px solid white;
+  width: 100px;
+}
+
+.hour {
+  background-color: #90d1f7;
+  font-weight: bold;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+
+.future {
+  background-color: #77dd77;
+  color: black;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mb-3 {
+  margin-bottom: 0rem!important;
+ }
+ 
+ .input-group .btn {
+   position: relative;
+   z-index: 2;
+   height: 70px;
+   width: 71px;
+   background-color: rgb(87, 180, 241);
+ }
+
+ .footer {
+  font-size: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.time {
+  border: 1px solid rgb(122, 242, 242);
+  background-color: #343434;
+  color: rgb(122, 242, 242);
+  border-radius: 1rem;
+  width: 300px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+header {
+  /*background-color: #E1E9F2;*/
+  background-color: #343434;
+  color: white;
+  }
+
+  #currentDay {
+    font-weight: bold;
+    font-size: 20px;
+  } 
+
+  .container {
+    margin-top: 10px;
+  }
+
+.textarea {
+  border: 1px solid whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+  font-family: 'Open Sans', sans-serif;
   font-family: 'Shadows Into Light', cursive;
   font-size: 16px;
 }
@@ -88,20 +244,25 @@ h2 {
   margin-top: 10px;
 }
 
-.time {
-  border: 1px solid #DDDDDD;
-  background-color: #F2F2F2;
-  border-radius: 5px;
+/*.time {
+ /* border: 1px solid #DDDDDD;*/
+ /* border: 1px solid rgb(122, 242, 242);
+ /* background-color: #F2F2F2; */
+ /* background-color: #343434;
+  color: rgb(122, 242, 242);
+  border-radius: 1rem;
   width: 300px;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 header {
-background-color: #E1E9F2;
+/*background-color: #E1E9F2;*/
+/*background-color: #343434;
+color: white;
 }
 
 #currentDay {
   font-weight: bold;
   font-size: 20px;
-}
+} 
