@@ -2,6 +2,7 @@
 
 ## Challenge Description
 This Work Day Scheduler is a tool to help users track their daily schedule. A user is presented with a colour coded timeblock where they are able to save events for each hour of the day. They can type out their schedule in the text area and save it. The entry will remain saved though the user might close or refresh the page.
+HTML, Bootstrap, CSS, JavaScript, jQuery and dayJS are used to run this app.
 
 ## User Story
 
