@@ -32,7 +32,7 @@ THEN the saved events persist
 
 ## Demo Deployed Site
 
-
+![Alt text](Assets/images/Work%20Day%20Scheduler.gif)
 
 ## Link to Deployed Site
 
